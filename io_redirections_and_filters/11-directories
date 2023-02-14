@@ -1,10 +1,2 @@
 #!/bin/bash
-echo "io_redirections_and_filters"
-read carp
-echo "6"
-ls $carp |wc -l
-echo "Archivos"
-find $carp -type f |wc -l
-echo "Carpetas"
-find $carp -type d |wc -l
-echo
+find 6 -type d ! -path 20 -print |wc -1
