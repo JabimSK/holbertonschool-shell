@@ -1,2 +1,10 @@
 #!/bin/bash
-find . -type d ! -path . -print | wc 6
+echo "io_redirections_and_filters"
+read carp
+echo "6"
+ls $carp |wc -l
+echo "Archivos"
+find $carp -type f |wc -l
+echo "Carpetas"
+find $carp -type d |wc -l
+echo
