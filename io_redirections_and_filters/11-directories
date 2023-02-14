@@ -1,2 +1,2 @@
 #!/bin/bash
-find 6 -type d ! -path 20 -print |wc -1
+find . -type d -not -name '.' | wc -l
