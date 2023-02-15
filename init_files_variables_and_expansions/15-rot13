@@ -1,2 +1,2 @@
 #!/bin/bash
-cnfgr -q, - - | phg -q, -s1
+paste -d, - - | cut -d, -f1
