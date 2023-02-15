@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/ova/onfu
 paste -d, - - | cut -d, -f1
